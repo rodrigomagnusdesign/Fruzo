@@ -1,0 +1,56 @@
+/* Estilos para a página */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E95B7A;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 30px;
+}
+
+/* Estilos para o header */
+.NavSuperior {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.NavSuperior ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.NavSuperior li a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.Fruzo {
+  max-width: 180px;
+}
+
+.Vector {
+  max-width: 30px;
+}
+
+/* Estilos para o corpo centralizado */
+.Corpo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.Fruzo.BG {
+  max-width: 400px;
+}
