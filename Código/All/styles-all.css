@@ -1,9 +1,98 @@
-.imagem {
-    height: 165px;
-    width: 200px;
+*,
+*::after,
+*,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.imagem1 {
-    height: 185px;
-    width: 185px;
+/* .imagem {
+    height: 205px;
+    width: 220px;
+} */
+
+.sessao {
+  background-color: #c7c7c7;
+  padding: 50px 30px 20px 60px;
+}
+
+/* .NavSuperior{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* .NavSuperior ul{
+       display: flex;
+   } */
+
+img {
+  align-items: center;
+
+  border-top: solid 2px white;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+  /* faz uma borda em torno da imagem
+     border  */
+
+  border-radius: 10px;
+  /* faz um círculo
+    border-radius: 100%;  */
+
+  cursor: pointer;
+  /*adiciona a mão no ponteiro*/
+  transition: 0.35s;
+
+  overflow: hidden;
+}
+
+img:hover {
+  opacity: 0.2;
+  transform: scale(0.9);
+}
+
+.imagem_1 {
+  width: 205px;
+  height: 187px;
+}
+.imagem_2_ {
+  width: 205px;
+  height: 187px;
+}
+
+.imagem_3 {
+  width: 252px;
+  height: 133px;
+}
+
+.imagem_9 {
+  width: 250px;
+  height: 133px;
+}
+
+.imagem_12 {
+  width: 264px;
+  height: 136px;
+}
+
+.botao {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  border-top: solid 2px white;
+  border-right: solid 10px white;
+  border-bottom: solid 2px white;
+  border-left: solid 10px white;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.botao:active {
+  transform: scale(1.2);
 }
