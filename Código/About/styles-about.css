@@ -38,21 +38,21 @@ body {
     color: #fff;
 }
 
-/* estilo para o cabeçalho principal */
+/* cabeçalho principal */
 h1 {
     font-size: 28px;
     margin: 20px 0;
     text-align: center;
 }
 
-/* estilo para o conteúdo do parágrafo */
+/* conteúdo do parágrafo */
 p {
     font-size: 16px;
     margin: 0 20px;
     text-align: justify;
 }
 
-/* estilo para as imagens do cabeçalho e carrinho */
+/* imagens do cabeçalho e carrinho */
 .NavSuperior nav ul li a img {
     max-width: 100%;
     height: auto;
