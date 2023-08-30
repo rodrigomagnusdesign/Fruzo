@@ -1,66 +1,79 @@
-/* styles.css */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* corpo */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background-image: url('Fruits.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-}
-
-/* barra de navegação superior */
-.NavSuperior {
-    color: rgb(253, 250, 250);
-    background-color: #c7c7c7;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-  }  
-
-  a:visited {
-    color: rgb(247, 73, 73);
   }
   
-  section {
-    background-color: #c7c7c7;
-    padding: 0px 
-    
+  body {
+    background-color: #f3edef;
+    font-family: Helvetica, Arial, sans-serif;
   }
-NavSuperior nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-NavSuperior nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* cabeçalho principal */
-h1 {
-    font-size: 28px;
-    margin: 20px 0;
-    text-align: center;
-}
-
-/* conteúdo do parágrafo */
-p {
+  
+  p {  /* Conteúdo do parágrafo */
     font-size: 18px;
     margin: 0 20px;
     text-align: justify;
-}
+  }
+  
 
-/* imagem do cabeçalho e carrinho */
-.NavSuperior nav ul li:last-child img {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-}
+  .NavSuperior {  /* cabeçalho principal */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff; /* cor de fundo */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .NavSuperior ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .NavSuperior li a {
+    text-decoration: none;
+    color: rgb(129, 120, 120);
+    font-weight: lighter;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+  }
+  
+  .NavSuperior li a:hover {
+    color: #333; /* muda a cor ao passar o mouse */
+  }
+  
+  .NavSuperior li:last-child {  /* posicionar o carrinho no canto direito */
+    margin-left: auto;
+  }
+  
+  .NavSuperior li img {  /* logotipo e carrinho */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  header {   /*cabeçalho principal */
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+  }
+  
+  .Imagens {  /* section de imagens */
+    position: center;
+  }
+  
+  .Background {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  h1 {  /* título principal */
+    font-size: 36px;
+    margin: 30px 0;
+    text-align: center;
+  }
