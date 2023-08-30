@@ -11,9 +11,9 @@ nav ul {
   list-style-type: none;
 
 
-  height: 50px;
+  height: 150px;
   padding-left: 55px;
-  padding-bottom: 10px;
+  padding-bottom: 75px;
 
   display: flex;
   flex-direction: row;
@@ -34,7 +34,8 @@ a:visited {
 
 section {
   background-color: #c7c7c7;
-  padding: 50px 30px 20px 60px;
+  padding: 0px 
+  
 }
 
 img {
@@ -97,7 +98,7 @@ img:hover {
   border-bottom: solid 2px white;
   border-left: solid 10px white;
   width: 50px;
-  border-style: outset opacity 0.01;
+
   border-radius: 10px;
   margin-left: 70px;
   margin-bottom: 30px;
@@ -122,6 +123,8 @@ img:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
+
+  
 
 }
