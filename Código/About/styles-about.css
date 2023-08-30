@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('fruits.jpg.'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  
+  
