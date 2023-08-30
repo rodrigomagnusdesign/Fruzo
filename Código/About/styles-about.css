@@ -17,23 +17,23 @@ body {
 }
 
 /* barra de navegação superior */
-.NavSuperior {
+NavSuperior {
     background-color: #747171;
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
-.NavSuperior nav ul {
+NavSuperior nav ul {
     list-style: none;
 }
 
-.NavSuperior nav ul li {
+NavSuperior nav ul li {
     display: inline;
     margin: 0 10px;
 }
 
-.NavSuperior nav ul li a {
+NavSuperior nav ul li a {
     text-decoration: none;
     color: #fff;
 }
@@ -53,7 +53,9 @@ p {
 }
 
 /* imagens do cabeçalho e carrinho */
-.NavSuperior nav ul li a img {
-    max-width: 100%;
-    height: auto;
+.NavSuperior nav ul li:last-child img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
