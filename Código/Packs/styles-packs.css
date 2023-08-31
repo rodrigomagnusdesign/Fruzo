@@ -82,3 +82,33 @@ img:hover {
 
     overflow: auto;
 }
+
+.botao {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-top: solid 2px white;
+    border-right: solid 10px white;
+    border-bottom: solid 2px white;
+    border-left: solid 10px white;
+    width: 50px;
+
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+
+    box-shadow: 1px 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.botao:active {
+    transform: scale(1.2);
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
