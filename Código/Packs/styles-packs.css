@@ -1,0 +1,84 @@
+*,
+*::after,
+*,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.NavSuperior {}
+
+nav ul {
+    list-style-type: none;
+
+
+    color: rgb(253, 250, 250);
+
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    height: 150px;
+    padding-left: 55px;
+    padding-bottom: 75px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: auto;
+}
+
+nav ul li {}
+
+li a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(247, 231, 10);
+}
+
+body {
+    background-color: rgb(240, 100, 123);
+}
+
+.figura {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img:hover {
+    opacity: 0.1;
+    transform: scale(0.9);
+}
+
+.pack {
+    height: 300px;
+    width: 350px;
+    align-items: center;
+
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    border-bottom: solid 2px white;
+    border-left: solid 2px white;
+    /* faz uma borda em torno da imagem
+       border  */
+
+    border-radius: 20px;
+    /* faz um círculo
+      border-radius: 100%;  */
+
+    cursor: pointer;
+    /*adiciona a mão no ponteiro*/
+    transition: 0.35s;
+
+    overflow: auto;
+}

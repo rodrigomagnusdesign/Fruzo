@@ -32,6 +32,11 @@ a:visited {
   color: rgb(224, 16, 16);
 }
 
+li a {
+  text-decoration: none;
+
+}
+
 section {
   background-color: #c7c7c7;
   padding: 0px 
