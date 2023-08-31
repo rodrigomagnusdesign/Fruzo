@@ -18,7 +18,7 @@ html {
 
 li a {
     text-decoration: none;
-    
+
 }
 
 .Conteudo {
@@ -29,11 +29,13 @@ li a {
     width: 100vw;
     height: 45vw;
 }
+
 h1 {
     font-size: 36px;
     margin: 30px 0;
     text-align: center;
 }
+
 p {
     font-size: 1rem;
     margin: 0 5vw;
