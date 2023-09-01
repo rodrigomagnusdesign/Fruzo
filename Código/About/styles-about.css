@@ -14,6 +14,7 @@ html {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    color: rgb(97, 95, 95);
 }
 
 li a {
@@ -31,15 +32,18 @@ li a {
 }
 
 h1 {
+    font-weight: lighter;
     font-size: 36px;
     margin: 48px 0;
     text-align: center;
+    color: rgb(87, 85, 85);
 }
 
 p {
     font-size: 1rem;
-    margin: 0 5vw;
+    margin: 0 15vw;
     text-align: justify;
+    color: rgb(8, 8, 8);
 }
 
 /* Posicionando o logo no centro */
