@@ -39,15 +39,30 @@ a {
   font-weight: lighter;
 }
 
-.NavSuperior li a img[alt="Logo"] {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+...
+.NavSuperior nav ul {
+    display: flex;
+    justify-content: space-between; /* Distribui os blocos uniformemente */
+    align-items: center; 
+    width: 100%;
+    padding: 0; 
 }
 
-.NavSuperior li a img[alt="Carrinho"] {
-    position: absolute;
-    right: 0;
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-group:not(:last-child) {
+    margin-right: 20px; /* Adiciona uma margem à direita para separar os grupos */
+}
+
+.nav-logo img {
+    width: 100px; /* Ajuste conforme necessário */
+}
+
+.nav-cart img {
+    width: 30px; /* Ajuste conforme necessário */
 }
 
 /* Estilos para o corpo centralizado */
