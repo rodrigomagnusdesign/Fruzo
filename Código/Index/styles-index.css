@@ -36,7 +36,7 @@ body {
 .NavSuperior li a img[alt="Logo"] {
     position: absolute;
     left: 50%;
-    transform: translateX(-%);
+    transform: translateX(-50%);
 }
 
 /* Posicionando o carrinho no canto direito */
