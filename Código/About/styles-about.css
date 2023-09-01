@@ -41,3 +41,39 @@ p {
     margin: 0 5vw;
     text-align: justify;
 }
+
+/* Posicionando o logo no centro */
+.NavSuperior li a img[alt="Logo"] {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Posicionando o carrinho no canto direito */
+.NavSuperior li a img[alt="Carrinho"] {
+    position: absolute;
+    right: 0;
+}
+
+.NavLateral {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    /* Posicionamento absoluto */
+    left: 0;
+    /* Colado na lateral esquerda */
+    top: 50%;
+    /* Centralizado verticalmente */
+    transform: translateY(-50%);
+    /* Ajuste para centralização vertical */
+    margin-left: 10px;
+    /* Espaçamento à esquerda para não ficar exatamente colado na borda */
+}
+
+.NavLateral a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
