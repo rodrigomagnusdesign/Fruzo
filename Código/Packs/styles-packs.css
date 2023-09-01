@@ -7,8 +7,6 @@
     box-sizing: border-box;
 }
 
-.NavSuperior {}
-
 nav ul {
     list-style-type: none;
 
@@ -31,8 +29,6 @@ nav ul {
     overflow: auto;
 }
 
-nav ul li {}
-
 li a {
     text-decoration: none;
 }
@@ -41,8 +37,51 @@ a:visited {
     color: rgb(247, 231, 10);
 }
 
+/* Posicionando o logo no centro */
+.NavSuperior li a img[alt="Logo"] {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Posicionando o carrinho no canto direito */
+.NavSuperior li a img[alt="Carrinho"] {
+    position: absolute;
+    right: 0;
+}
+
+.NavLateral {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    /* Posicionamento absoluto */
+    left: 0;
+    /* Colado na lateral esquerda */
+    top: 50%;
+    /* Centralizado verticalmente */
+    transform: translateY(-50%);
+    /* Ajuste para centralização vertical */
+    margin-left: 10px;
+    /* Espaçamento à esquerda para não ficar exatamente colado na borda */
+}
+
+.NavLateral a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.bg-logo {
+    position: absolute;
+    z-index: 1;
+    width: 30%;
+    /* Diminuir para 90% da largura original */
+}
+
 body {
-    background-color: rgb(240, 100, 123);
+    background-color: #c7c7c7;
 }
 
 .figura {
@@ -83,6 +122,7 @@ img:hover {
     overflow: auto;
 }
 
+/* Botao*/
 .botao {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
