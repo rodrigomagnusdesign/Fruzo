@@ -1,7 +1,4 @@
-*,
-*::after,
-*,
-*::before {
+*{  /* Margem*/
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -23,10 +20,21 @@ nav ul {
 
 .NavSuperior {
   color: rgb(253, 250, 250);
-  background-color: #a1a1a1;
+  background-color: rgb(55, 65, 65);
+  /* Somente para visualizar, depois retirar o backgrownd*/
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+li:hover {
+
+  cursor: pointer;
+  opacity: 0.7;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+
+}
+
 .sob {
   position: absolute;
 
@@ -38,10 +46,9 @@ nav ul {
   color: rgb(253, 250, 250);
   font-size: 16px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* Posicionando o logo no centro */
@@ -81,6 +88,13 @@ nav ul {
 }
 
 
+.NavLateral a:hover {
+  opacity: 0.7;
+  background-color: rgba(54, 51, 51, 0.2);
+  padding: 5px;
+}
+
+
 a:visited {
   color: rgb(224, 16, 16);
 }
@@ -117,7 +131,7 @@ img {
 }
 
 img:hover {
-  opacity: 0.2;
+  opacity: 0.7;
   transform: scale(0.9);
 }
 
@@ -203,4 +217,3 @@ img {
   width: 30%; /* Diminuir para 90% da largura original --/
 }*/
 
-.sobre {}
