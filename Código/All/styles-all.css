@@ -10,12 +10,12 @@ nav ul {
 
   height: 150px;
   padding-left: 55px;
-  padding-bottom: 75px;
+  padding-bottom: 75px; 
 
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
 }
 
 .NavSuperior {
@@ -35,10 +35,9 @@ li:hover {
 
 }
 
-.sob {
-  position: absolute;
+ .nav-left {
+   position: absolute;
 
-  display: block;
   padding-top: 25px;
   padding-left: 55px;
   padding-bottom: 75px;
@@ -48,8 +47,8 @@ li:hover {
   display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
-}
+    align-items: center; 
+} 
 
 /* Posicionando o logo no centro */
 .NavSuperior li a img[alt="Logo"] {
@@ -213,7 +212,7 @@ img {
 /*
 .bg-logo {
   position: absolute;
-  z-index: 1; 
+  z-index: 1;
   width: 30%; /* Diminuir para 90% da largura original --/
 }*/
 
