@@ -1,32 +1,84 @@
-*,
-*::after,
-*,
-*::before {
+* {
+    /* Margem*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+nav {
+    background-color:rgb(55, 65, 65);;
+      /* Somente para visualizar, depois retirar o backgrownd*/
+    display: grid;
+    height: 200px;
+
+    grid-template-columns: 1fr 400px 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-template-areas:
+        "sobre logo-nav sucos packs tudo carro";
+
+    justify-items: center;
+
+
+
+}
+
+#sobre {
+    grid-area: sobre;
+    justify-self: center;
+    align-self: center;
+}
+
+
+#sucos {
+    grid-area: sucos;
+    justify-self: center;
+    align-self: start;
+
+}
+
+#packs {
+    grid-area: packs;
+    justify-self: center;
+    align-self: center;
+}
+
+#tudo {
+    grid-area: tudo;
+    justify-self: center;
+    align-self: center;
+   
+}
+
+#logo-nav {
+    grid-area: logo-nav;
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#carro {
+    grid-area: carro;
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+    right: 0 ;
+    margin: -45px 20px;
+}
+
 nav ul {
     list-style-type: none;
+}
+
+.NavSuperior {
 
 
     color: rgb(253, 250, 250);
-
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 
-    height: 150px;
-    padding-left: 55px;
-    padding-bottom: 75px;
-
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    overflow: auto;
 }
 
 li a {
@@ -37,18 +89,21 @@ a:visited {
     color: rgb(247, 231, 10);
 }
 
-/* Posicionando o logo no centro */
+
+/* 
+/==Posicionando o logo no centro--/
 .NavSuperior li a img[alt="Logo"] {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
-/* Posicionando o carrinho no canto direito */
+/-- Posicionando o carrinho no canto direito --/
 .NavSuperior li a img[alt="Carrinho"] {
     position: absolute;
     right: 0;
-}
+    margin: 0 20px;
+} */
 
 .NavLateral {
     display: flex;
@@ -71,32 +126,53 @@ a:visited {
     color: white;
     margin-bottom: 10px;
     cursor: pointer;
+
 }
 
-.bg-logo {
-    position: absolute;
-    z-index: 1;
-    width: 30%;
-    /* Diminuir para 90% da largura original */
+.NavLateral a:hover {
+    opacity: 0.7;
+    background-color: rgba(54, 51, 51, 0.2);
+    padding: 5px;
 }
 
 body {
     background-color: #a1a1a1;
-    }
+}
+
+.figura div {
+    padding-top: 6%;
+    padding-right: 30px;
+}
 
 .figura {
-    padding-left: 60px;
-    padding-right: 60px;
-
+    padding-left: 30%;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-self: center;
+
+}
+
+li {
+    padding: 0 30px;
+
+}
+
+li:hover {
+
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+
 }
 
 img:hover {
-    opacity: 0.1;
-    transform: scale(0.9);
+    transform: scale(0.8);
+
+    cursor: pointer;
+    opacity: 0.7;
+    padding: 5px;
+
 }
 
 .pack {
@@ -122,8 +198,8 @@ img:hover {
     overflow: auto;
 }
 
-/* Botao*/
 .botao {
+    /* Botao*/
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
@@ -142,13 +218,31 @@ img:hover {
     transition: all 0.2s ease;
 }
 
-.botao:active {
-    transform: scale(1.2);
-}
-
 .botao {
     display: flex;
     flex-direction: row;
     align-items: center;
     overflow: hidden;
 }
+
+.botao:active {
+    transform: scale(1.2);
+}
+
+/* 
+.NavSuperior li a {
+    margin: 20px;
+    padding: 20px;
+    font-weight: lighter;
+} */
+
+
+/* .bg-logo {
+    position: absolute;
+    padding-left: 300px;
+    align-self: center;
+    justify-content: center;
+    z-index: 1;
+    width: 30%;
+    }   */
+/* Diminuir para 90% da largura original */
