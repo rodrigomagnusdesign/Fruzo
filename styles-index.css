@@ -1,0 +1,300 @@
+.frame-sucos-morango01-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-sucos-morango01-frame-sucos-morango01 {
+  width: 100%;
+  height: 1003px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: #C7C7C7;
+}
+.frame-sucos-morango01-bg {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 1014px;
+  bottom: 0px;
+  height: 581px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-sucos-morango01-fruzo {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 1014px;
+  bottom: 0px;
+  height: 324px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+}
+.frame-sucos-morango01-mockup-morango {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 911px;
+  bottom: 0px;
+  height: 581px;
+  margin: auto;
+  position: absolute;
+}
+.frame-sucos-morango01-setas {
+  right: var(--dl-space-space-threeunits);
+  width: 94px;
+  bottom: var(--dl-space-space-threeunits);
+  height: 41px;
+  position: absolute;
+}
+.frame-sucos-morango01-navinferior {
+  left: 0px;
+  right: 0px;
+  width: 155px;
+  bottom: var(--dl-space-space-threeunits);
+  height: 123px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: flex-end;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-sucos-morango01-quantidade {
+  top: 74px;
+  left: 0px;
+  right: 0px;
+  width: 151px;
+  height: 49px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-sucos-morango01-text {
+  top: 6px;
+  color: rgba(0, 0, 0, 1);
+  width: 80px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Light;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-sucos-morango01-svg {
+  top: 12px;
+  left: 111px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.frame-sucos-morango01-cima {
+  top: 10px;
+  left: 80px;
+  width: 15px;
+  height: 13px;
+  position: absolute;
+}
+.frame-sucos-morango01-baixo {
+  top: 40px;
+  left: 95px;
+  width: 15px;
+  height: 13px;
+  position: absolute;
+}
+.frame-sucos-morango01-text2 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Light;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-sucos-morango01-navlateral {
+  top: 0px;
+  left: 0px;
+  width: 168px;
+  bottom: 0px;
+  height: 171px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr; /* Uma única coluna */
+  grid-template-rows: repeat(3, 1fr); /* Três linhas de tamanho igual */
+  gap: 10px; /* Espaçamento entre os itens do grid */
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  }
+
+.frame-sucos-morango01-tudo {
+  grid-row: 1 / 2; /* Primeira linha */
+  top: 118px;
+  left: 0px;
+  width: 117px;
+  height: 53px;
+  display: flex;
+  position: static; /* Remove o posicionamento absoluto */
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: rgba(255, 255, 255, 1);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.frame-sucos-morango01-text4 {
+  top: 0px;
+  left: 15.013274192810059px;
+  color: rgba(71, 71, 71, 1);
+  width: 92px;
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+  position: static; /* Remove o posicionamento absoluto */
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  font-size: 25px;
+  font-style: Light;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-sucos-morango01-packs {
+  grid-row: 2 / 3; /* Segunda linha */
+  top: 59px;
+  left: 0px;
+  width: 117px;
+  height: 53px;
+  display: flex;
+  position: static; /* Remove o posicionamento absoluto */
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: rgba(255, 255, 255, 1);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.frame-sucos-morango01-text6 {
+  top: 0px;
+  left: 15.013274192810059px;
+  color: rgb(71, 71, 71);
+  width: 92px;
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+  position: static; /* Remove o posicionamento absoluto */
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  font-size: 25px;
+  font-style: Light;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-sucos-morango01-sucos {
+  grid-row: 3 / 4; /* Segunda linha */
+  top: 0px;
+  left: 0px;
+  width: 168px;
+  height: 53px;
+  display: flex;
+  position: static; /* Remove o posicionamento absoluto */
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: rgba(200, 40, 71, 1);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.frame-sucos-morango01-text7 {
+  top: 0px;
+  left: 21.55752182006836px;
+  color: rgba(255, 255, 255, 1);
+  width: 132px;
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+  position: static; /* Remove o posicionamento absoluto */
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-sucos-morango01-carrinho {
+  top: var(--dl-space-space-threeunits);
+  right: var(--dl-space-space-threeunits);
+  width: 121px;
+  height: 43px;
+  position: absolute;
+}
+.frame-sucos-morango01-logo {
+  top: var(--dl-space-space-threeunits);
+  left: 0px;
+  right: 0px;
+  width: 443px;
+  height: 61px;
+  margin: auto;
+  position: absolute;
+}
+@media(max-width: 1600px) {
+  .frame-sucos-morango01-carrinho {
+    top: var(--dl-space-space-threeunits);
+    right: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+}
