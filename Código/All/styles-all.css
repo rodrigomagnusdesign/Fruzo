@@ -3,87 +3,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-
-nav {
-  background-color: rgb(55, 65, 65);
-  ;
-  /* Somente para visualizar, depois retirar o backgrownd*/
-  display: grid;
-  height: 200px;
-
-  grid-template-columns: 1fr 400px 1fr 1fr 1fr;
-  grid-template-rows: 200px;
-  grid-template-areas:
-    "sobre logo-nav sucos packs tudo carro";
-
-  justify-items: center;
 
 }
 
-.sobre {
-  grid-area: sobre;
-  justify-self: center;
-  align-self: center;
+body {
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: #a1a1a1;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 
-}
-
-
-.sucoss {
-  grid-area: sucoss;
-  justify-self: center;
-  align-self: center;
-  margin:  1000px;
-
-}
-
-#packss {
-  grid-area: packss;
-  justify-self: center;
-  align-self: center;
-  margin: -20px 1400px;
-  
-}
-
-#tudoo {
-  grid-area: tudoo;
-  justify-self: center;
-  align-self: center;
-  margin: -80px 1550px;
-  
-
-}
-
-#logo-nav {
-  grid-area: logo-nav;
-  justify-self: center;
-  align-self: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-
-
-#carro {
-  grid-area: carro;
-  justify-self: center;
-  align-self: center;
-  position: absolute;
-  right: 0;
-  margin: -50px 20px;
-
-}
-
-nav ul {
-  list-style-type: none;
 }
 
 .NavSuperior {
-  color: rgb(253, 250, 250);
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 124px;
 }
 
 li:hover {
@@ -135,11 +72,6 @@ li a {
 
 }
 
-section {
-  background-color: #a1a1a1;
-  padding: 0px
-}
-
 
 img:hover {
   opacity: 0.7;
@@ -148,7 +80,7 @@ img:hover {
 
 img {
 
-  max-width: 100%;
+ 
   /* Para garantir que a imagem não exceda a largura da tela */
 
 
@@ -160,6 +92,7 @@ img {
 .imagem_1 {
   width: 195px;
   height: 187px;
+  margin-top: 78px;
 
   align-items: center;
 
@@ -255,14 +188,9 @@ img {
 .container {
   display: flex;
   flex-direction: row;
+  gap: 32px;
   align-items: center;
   justify-content: center;
-}
-
-.container div {
-  padding-top: 20px;
-  padding-right: 80px;
-  padding-left: 20px;
 }
 
 .botao {
