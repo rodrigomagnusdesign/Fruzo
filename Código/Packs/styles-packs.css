@@ -3,25 +3,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  
-  }
-  
-  body {
+
+}
+
+body {
     /* background-color: rgba(255, 255, 255, 0.2); */
     background-color: #a1a1a1;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-  
-  }
-  
-  .NavSuperior {
+
+}
+
+.NavSuperior {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 124px;
-  }
+}
 
 li a {
     text-decoration: none;
@@ -52,7 +52,6 @@ a:visited {
     color: white;
     margin-bottom: 10px;
     cursor: pointer;
-
 }
 
 .NavLateral a:hover {
@@ -61,8 +60,33 @@ a:visited {
     padding: 5px;
 }
 
-body {
-    background-color: #a1a1a1;
+li {
+    padding: 0 30px;
+}
+
+li:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+}
+
+img:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+    opacity: 0.7;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 32px;
+}
+
+p:hover {
+    box-shadow: color pink;
+    cursor: pointer;
 }
 
 .figura div {
@@ -71,41 +95,16 @@ body {
 }
 
 .figura {
-    padding-left: 30%;
     display: flex;
     align-items: center;
     justify-self: center;
-
-}
-
-li {
-    padding: 0 30px;
-
-}
-
-li:hover {
-
-    cursor: pointer;
-    opacity: 0.7;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 5px;
-
-}
-
-img:hover {
-    transform: scale(0.8);
-
-    cursor: pointer;
-    opacity: 0.7;
-    padding: 5px;
-
+    justify-content: center;
 }
 
 .pack {
     height: 300px;
     width: 350px;
     align-items: center;
-
     border-top: solid 2px white;
     border-right: solid 2px white;
     border-bottom: solid 2px white;
@@ -155,6 +154,13 @@ img:hover {
     transform: scale(1.2);
 }
 
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: #a1a1a1;
+    }
+}
+
+
 /* 
 .NavSuperior li a {
     margin: 20px;
@@ -163,11 +169,12 @@ img:hover {
 } */
 
 
-.bg-logo {
-    z-index: 1; 
+/* .bg-logo {
+    z-index: 1;
     width: 30%;
-    position: absolute; /* Fixa o logo no centro */
-    top: 50%;
+    position: absolute; */
+/* Fixa o logo no centro */
+/* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */

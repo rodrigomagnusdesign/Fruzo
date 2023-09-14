@@ -72,6 +72,16 @@ li a {
 
 }
 
+p{
+  text-align: center;
+  font-size: 22px;
+  padding-top: 32px;
+}
+
+p:hover{
+box-shadow:color pink;
+cursor: pointer;
+}
 
 img:hover {
   opacity: 0.7;
