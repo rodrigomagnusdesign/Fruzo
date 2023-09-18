@@ -99,7 +99,7 @@ img {
   overflow: auto;
 }
 
-.imagem_1 {
+.imagem_1 { /* Imagem pacote com 1 unidade*/
   width: 195px;
   height: 187px;
   margin-top: 78px;
@@ -119,7 +119,7 @@ img {
 
 }
 
-.imagem_2 {
+.imagem_2 {/* Imagem pacote com 2 unidades*/
   width: 195px;
   height: 190px;
 
@@ -138,7 +138,7 @@ img {
 
 }
 
-.imagem_3 {
+.imagem_3 { /* Imagem pacote com 3 unidades*/
   width: 195px;
   height: 170px;
 
@@ -157,7 +157,7 @@ img {
 
 }
 
-.imagem_9 {
+.imagem_9 {/* Imagem pacote com 9 unidades*/
   width: 195px;
   height: 180px;
 
@@ -176,7 +176,7 @@ img {
 
 }
 
-.imagem_12 {
+.imagem_12 { /* Imagem pacote com 12 unidades*/
   width: 195px;
   height: 180px;
 

@@ -48,6 +48,7 @@ a:visited {
 }
 
 .NavLateral a {
+
     text-decoration: none;
     color: white;
     margin-bottom: 10px;
@@ -71,7 +72,7 @@ li:hover {
     padding: 5px;
 }
 
-img:hover {
+.pack:hover {
     transform: scale(0.8);
     cursor: pointer;
     opacity: 0.7;
@@ -85,26 +86,22 @@ p {
 }
 
 p:hover {
-    box-shadow: color pink;
     cursor: pointer;
 }
 
 .figura div {
-    padding-top: 6%;
-    padding-right: 30px;
-}
+        padding-right: 30px;
+} 
 
-.figura {
-    display: flex;
+.row.justify-content-md-end { /*efeito do bootstrap*/
     align-items: center;
-    justify-self: center;
-    justify-content: center;
+    padding-bottom: 80px;
 }
-
 .pack {
+    /* Imagem Suco */
     height: 300px;
     width: 350px;
-    align-items: center;
+    /* align-items: center; */
     border-top: solid 2px white;
     border-right: solid 2px white;
     border-bottom: solid 2px white;
@@ -122,6 +119,8 @@ p:hover {
 
     overflow: auto;
 }
+
+
 
 .botao {
     /* Botao*/
@@ -161,12 +160,6 @@ p:hover {
 }
 
 
-/* 
-.NavSuperior li a {
-    margin: 20px;
-    padding: 20px;
-    font-weight: lighter;
-} */
 
 
 /* .bg-logo {
