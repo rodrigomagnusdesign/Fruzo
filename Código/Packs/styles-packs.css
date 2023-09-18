@@ -90,13 +90,15 @@ p:hover {
 }
 
 .figura div {
-        padding-right: 30px;
-} 
+    padding-right: 30px;
+}
 
-.row.justify-content-md-end { /*efeito do bootstrap*/
+.row.justify-content-md-end {
+    /*efeito do bootstrap*/
     align-items: center;
     padding-bottom: 80px;
 }
+
 .pack {
     /* Imagem Suco */
     height: 300px;
@@ -158,7 +160,6 @@ p:hover {
         background-color: #a1a1a1;
     }
 }
-
 
 
 

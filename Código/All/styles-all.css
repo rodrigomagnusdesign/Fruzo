@@ -72,15 +72,15 @@ li a {
 
 }
 
-p{
+p {
   text-align: center;
   font-size: 22px;
   padding-top: 32px;
 }
 
-p:hover{
-box-shadow:color pink;
-cursor: pointer;
+p:hover {
+  box-shadow: color pink;
+  cursor: pointer;
 }
 
 img:hover {
@@ -90,7 +90,7 @@ img:hover {
 
 img {
 
- 
+
   /* Para garantir que a imagem não exceda a largura da tela */
 
 
@@ -99,7 +99,8 @@ img {
   overflow: auto;
 }
 
-.imagem_1 { /* Imagem pacote com 1 unidade*/
+.imagem_1 {
+  /* Imagem pacote com 1 unidade*/
   width: 195px;
   height: 187px;
   margin-top: 78px;
@@ -119,7 +120,8 @@ img {
 
 }
 
-.imagem_2 {/* Imagem pacote com 2 unidades*/
+.imagem_2 {
+  /* Imagem pacote com 2 unidades*/
   width: 195px;
   height: 190px;
 
@@ -138,7 +140,8 @@ img {
 
 }
 
-.imagem_3 { /* Imagem pacote com 3 unidades*/
+.imagem_3 {
+  /* Imagem pacote com 3 unidades*/
   width: 195px;
   height: 170px;
 
@@ -157,7 +160,8 @@ img {
 
 }
 
-.imagem_9 {/* Imagem pacote com 9 unidades*/
+.imagem_9 {
+  /* Imagem pacote com 9 unidades*/
   width: 195px;
   height: 180px;
 
@@ -176,7 +180,8 @@ img {
 
 }
 
-.imagem_12 { /* Imagem pacote com 12 unidades*/
+.imagem_12 {
+  /* Imagem pacote com 12 unidades*/
   width: 195px;
   height: 180px;
 
