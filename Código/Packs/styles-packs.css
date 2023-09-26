@@ -72,6 +72,30 @@ li:hover {
     padding: 5px;
 }
 
+.pack {
+    /* Imagem Suco */
+    height: 300px;
+    width: 350px;
+    /* align-items: center; */
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    border-bottom: solid 2px white;
+    border-left: solid 2px white;
+    /* faz uma borda em torno da imagem
+       border  */
+
+    border-radius: 20px;
+    /* faz um círculo
+      border-radius: 100%;  */
+
+    cursor: pointer;
+    /*adiciona a mão no ponteiro*/
+    transition: 0.35s;
+
+    overflow: auto;
+}
+
+
 .pack:hover {
     transform: scale(0.8);
     cursor: pointer;
@@ -102,30 +126,16 @@ p:hover {
     padding-bottom: 80px;
     padding-left: 136px;
 }
+.carousel-inner{
+    height: 400px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
 
-.pack {
-    /* Imagem Suco */
-    height: 300px;
-    width: 350px;
-    /* align-items: center; */
-    border-top: solid 2px white;
-    border-right: solid 2px white;
-    border-bottom: solid 2px white;
-    border-left: solid 2px white;
-    /* faz uma borda em torno da imagem
-       border  */
-
-    border-radius: 20px;
-    /* faz um círculo
-      border-radius: 100%;  */
-
-    cursor: pointer;
-    /*adiciona a mão no ponteiro*/
-    transition: 0.35s;
-
-    overflow: auto;
-}
-
+    padding-bottom: 80px;
+    padding-left: 136px;
+  }
+  
 .botao {
     /* Botao*/
     font-size: 14px;
