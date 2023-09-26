@@ -55,13 +55,11 @@ li:hover {
 
 }
 
-
 .NavLateral a:hover {
   opacity: 0.7;
   background-color: rgba(54, 51, 51, 0.2);
   padding: 5px;
 }
-
 
 a:visited {
   color: rgb(224, 16, 16);
@@ -89,17 +87,13 @@ img:hover {
 }
 
 img {
-
-
   /* Para garantir que a imagem não exceda a largura da tela */
-
-
   cursor: pointer;
   transition: 0.35s;
   overflow: auto;
 }
 
-.imagem_1 {
+.imagem-1 {
   /* Imagem pacote com 1 unidade*/
   width: 195px;
   height: 187px;
@@ -120,7 +114,7 @@ img {
 
 }
 
-.imagem_2 {
+.imagem-2 {
   /* Imagem pacote com 2 unidades*/
   width: 195px;
   height: 190px;
@@ -137,10 +131,9 @@ img {
   border-radius: 10px;
   /* faz um círculo
     border-radius: 100%;  */
-
 }
 
-.imagem_3 {
+.imagem-3 {
   /* Imagem pacote com 3 unidades*/
   width: 195px;
   height: 170px;
@@ -157,10 +150,9 @@ img {
   border-radius: 10px;
   /* faz um círculo
     border-radius: 100%;  */
-
 }
 
-.imagem_9 {
+.imagem-9 {
   /* Imagem pacote com 9 unidades*/
   width: 195px;
   height: 180px;
@@ -177,10 +169,9 @@ img {
   border-radius: 10px;
   /* faz um círculo
     border-radius: 100%;  */
-
 }
 
-.imagem_12 {
+.imagem-12 {
   /* Imagem pacote com 12 unidades*/
   width: 195px;
   height: 180px;
@@ -197,7 +188,6 @@ img {
   border-radius: 10px;
   /* faz um círculo
     border-radius: 100%;  */
-
 }
 
 .container {
@@ -257,7 +247,6 @@ footer {
   margin-top: 0.75rem;
   font-size: 26px;
   text-align: start;
-
 }
 
 #footer-social-media {
@@ -274,7 +263,6 @@ footer {
   width: 2.5rem;
   color: #fdf7f7;
   border-radius: 50%;
-
   transition: all 0.4s;
 }
 
