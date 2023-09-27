@@ -1,13 +1,10 @@
 html {
     background-color: #a09a9c;
     font-family: Helvetica, Arial, sans-serif;
+    background-image: url('Fruits.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-a {
-    background-image: url('Fruits.jpg');
 }
 
 .NavSuperior {
