@@ -40,16 +40,16 @@ h1 {
 }
 
 p {
-<<<<<<< HEAD
+
     font-size: 16px;
     font-family: Helvetica, Arial, sans-serif;
     padding: 0 25vw;
-=======
+
     font-size: 17px;
     font-family: Helvetica, Arial, sans-serif;
     padding: 0 25vw;
     width: 468px;
->>>>>>> 25b594e34616e302b65474155a58fcb38fd385b1
+
     text-align: center;
     align-content: center;
     color: rgb(22, 22, 22);
@@ -154,7 +154,7 @@ footer {
 }
 
 #footer-social-media .footer-link {
->>>>>>> 25b594e34616e302b65474155a58fcb38fd385b1
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -252,4 +252,4 @@ footer {
     }
 
 }
->>>>>>> 25b594e34616e302b65474155a58fcb38fd385b1
+
