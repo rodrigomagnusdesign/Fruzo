@@ -126,16 +126,17 @@ p:hover {
     padding-bottom: 80px;
     padding-left: 136px;
 }
-.carousel-inner{
-    height: 400px;
-    width: 450px;
-    align-items: center;
-    justify-content: center;
 
+.carousel-inner {
+    height: 600px;
+    width: 650px;
+    display: flex;
+    position: center;
+    align-items: center;
     padding-bottom: 80px;
     padding-left: 136px;
-  }
-  
+}
+
 .botao {
     /* Botao*/
     font-size: 14px;
@@ -254,7 +255,7 @@ footer {
     }
 
     @media screen and (min-width: 426px) {
-        .container{
+        .container {
             grid-template-columns: repeat(1 1fr);
             padding: 3rem 2rem;
         }

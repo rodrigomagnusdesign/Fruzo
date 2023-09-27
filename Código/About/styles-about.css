@@ -1,11 +1,17 @@
    html {
     background-color: #a09a9c;
     font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.imagem-de-fundo{
     background-image: url('Fruits.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    
+    /* z-index: -1;
+    position: absolute; */
 }
 
 .NavSuperior {
@@ -40,16 +46,14 @@ h1 {
 }
 
 p {
-<<<<<<< HEAD
+
     font-size: 16px;
     font-family: Helvetica, Arial, sans-serif;
     padding: 0 25vw;
-=======
     font-size: 17px;
     font-family: Helvetica, Arial, sans-serif;
     padding: 0 25vw;
     width: 468px;
->>>>>>> 25b594e34616e302b65474155a58fcb38fd385b1
     text-align: center;
     align-content: center;
     color: rgb(22, 22, 22);
@@ -93,7 +97,7 @@ p {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
+
 
 footer {
     width: 100%;
@@ -124,7 +128,7 @@ footer {
   }
   
   #footer-social-media .footer-link {
-=======
+
 footer {
     width: 100%;
 }
@@ -154,7 +158,7 @@ footer {
 }
 
 #footer-social-media .footer-link {
->>>>>>> 25b594e34616e302b65474155a58fcb38fd385b1
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,7 +166,7 @@ footer {
     width: 2.5rem;
     color: #fdf7f7;
     border-radius: 50%;
-<<<<<<< HEAD
+
     transition: all 0.4s;
   }
   
@@ -199,7 +203,7 @@ footer {
     }
   
   }
-=======
+
 
     transition: all 0.4s;
 }
@@ -252,4 +256,4 @@ footer {
     }
 
 }
->>>>>>> 25b594e34616e302b65474155a58fcb38fd385b1
+
