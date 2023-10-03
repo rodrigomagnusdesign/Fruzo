@@ -128,8 +128,8 @@ p:hover {
 }
 
 .carousel-inner {
-    height: 600px;
-    width: 650px;
+    height: 500px;
+    width: 550px;
     display: flex;
     position: center;
     align-items: center;
