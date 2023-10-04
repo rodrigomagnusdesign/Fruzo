@@ -5,3 +5,4 @@ botao.addEventListener("click", acaoClique)
 function acaoClique() {
     console.log("Resposta ao evento BOTÃO");
 }
+alert("Voce clicou no botão")
