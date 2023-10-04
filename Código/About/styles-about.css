@@ -20,6 +20,10 @@ li a {
     text-decoration: none;
 }
 
+button {
+    background-color: #a18f8f;
+}
+
 .Conteudo {
     display: flex;
     flex-direction: column;
