@@ -193,8 +193,8 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.frame-sucos-morango01-packs {
-  grid-row: 2 / 3; /* Segunda linha */
+.frame-sucos-morango01-sobre {
+  grid-row: 2 / 3; /* Primeira linha */
   top: 59px;
   left: 0px;
   width: 117px;
@@ -235,7 +235,7 @@
   text-decoration: none;
 }
 .frame-sucos-morango01-sucos {
-  grid-row: 3 / 4; /* Segunda linha */
+  grid-row: 3 / 4; /* Terceira linha */
   top: 0px;
   left: 0px;
   width: 168px;
@@ -275,13 +275,13 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.frame-sucos-morango01-carrinho {
+/* .frame-sucos-morango01-carrinho {
   top: var(--dl-space-space-threeunits);
   right: var(--dl-space-space-threeunits);
   width: 121px;
   height: 43px;
   position: absolute;
-}
+} */
 .frame-sucos-morango01-logo {
   top: var(--dl-space-space-threeunits);
   left: 0px;
@@ -291,6 +291,18 @@
   margin: auto;
   position: absolute;
 }
+
+
+.frame-sucos-morango01-navlateral a:hover {
+  opacity: 0.7;
+  background-color: rgba(54, 51, 51, 0.2);
+  padding: 5px;
+}
+
+a:visited {
+  color: rgb(224, 16, 16);
+}
+
 @media(max-width: 1600px) {
   .frame-sucos-morango01-carrinho {
     top: var(--dl-space-space-threeunits);

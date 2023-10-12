@@ -93,3 +93,13 @@
     text-decoration: none;
   }
   
+  .frame-sucos-morango01-navlateral{
+    cursor: pointer;
+  }
+    .frame-sucos-morango01-navlateral a:hover {
+      opacity: 0.7;
+      background-color: white;
+      padding: 5px;
+    }
+    
+    
