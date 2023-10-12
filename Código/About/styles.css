@@ -8,12 +8,12 @@ html {
 }
 
 .NavSuperior {
+    /* Header */
+    list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    list-style: none;
-    color: rgb(97, 95, 95);
+    height: 124px;
 }
 
 li a {
