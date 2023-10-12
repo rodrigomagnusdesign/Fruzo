@@ -15,12 +15,16 @@ body {
 
 }
 
-.NavSuperior {
+ .NavSuperior {  /* Header */
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 124px;
+}
+
+header .fruzzo{
+padding: 56px;
 }
 
 li:hover {
@@ -198,7 +202,7 @@ img {
   justify-content: center;
 }
 
-.botao {
+#botao {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
@@ -217,11 +221,11 @@ img {
   transition: all 0.2s ease;
 }
 
-.botao:active {
+#botao:active {
   transform: scale(1.2);
 }
 
-.botao {
+#botao {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -310,9 +314,3 @@ footer {
   border-radius: 5px;
 }
 
-/*
-.bg-logo {
-  position: absolute;
-  z-index: 1;
-  width: 30%; /* Diminuir para 90% da largura original --/
-}*/
